@@ -6,14 +6,13 @@
 </template>
 
 <script setup lang="ts">
-import { useTypedRouter } from 'nuxt-typed-router/hook';
+import { useTypedRouter } from '~/models';
 
 const { router, routes } = useTypedRouter();
 
 function navigate() {
-  console.log(routes.childTwo.profile.id.slug.index === 'parent-child-two-profile-id-slug')
   router.push({ 
-    name: 'parent-child-two-profile-id-slug',
+    name: routes.childTwo.profile.id.slug.index,
     params: {
       id: 1,
       slug: 'foo'

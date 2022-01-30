@@ -3707,10 +3707,10 @@ number-is-nan@^1.0.0:
   optionalDependencies:
     fsevents "~2.3.2"
 
-nuxt-typed-router@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/nuxt-typed-router/-/nuxt-typed-router-1.0.2.tgz#80953d1992d648159ec9908a466bb9bd3373761e"
-  integrity sha512-hO2OoRhpKt53H4LR2C53eg72YLO+yr3/W/pWyV8XA0Oi4V+3XjoxIxdOCEatWhb53t/0jRteoAcNwEkhkTG+XQ==
+nuxt-typed-router@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/nuxt-typed-router/-/nuxt-typed-router-1.1.0.tgz#169c75d3edced967babcfa0fb8f6e2cf085c8d9b"
+  integrity sha512-WdIRv6UhGMs0yUKKDH9xMaATasO3zPBlKC1SDU6clLDXcmFGGE54Daa6AkyZ0UF7OGHYo2Apb5M+6RKoj/AZAA==
   dependencies:
     "@nuxt/kit" "npm:@nuxt/kit-edge@latest"
     chalk "^4.1.2"
